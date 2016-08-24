@@ -25,6 +25,7 @@ header img {
     position: relative;
     transition: .3s linear;
 }
+/* it may be better to assign width and height by percentage */
 
 header img:hover {
     transform: scale(1.2);
@@ -69,7 +70,7 @@ nav ul {
     padding: 10px;
     margin: 0 auto;
 }
-
+/* ul is defined as a flex but its items don't have flex item properties */
 nav ul a {
     transition: 1s;
     text-decoration: none;
@@ -107,7 +108,7 @@ li:hover {
     font-weight:normal;
     
 }
-
+/* we were supposed to use flex instead of float */
 .slides {
     width: 50%;
     float: left;
